@@ -2,6 +2,7 @@
 pragma solidity ^0.8.7;
 
 // 函数输出
+
 contract FunctionOutputs {
     // 内部外部都可以调用——public
     function returnMany() public pure returns (uint, bool) {
